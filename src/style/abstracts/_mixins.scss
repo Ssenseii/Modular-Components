@@ -19,3 +19,8 @@
     width: 12.5rem;
     height: 30rem;
 }
+
+@mixin rectangleMobile{
+    width: 7rem;
+    height: 16rem;
+}

@@ -81,5 +81,47 @@
       @include Rectangle;
     }
 
+
+
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .module {
+
+    &__shape {
+      height: 16rem;
+      width: 16rem;
+
+      &-rec1 {
+        @include rectangleMobile;
+      }
+
+      &-rec2 {
+        @include rectangleMobile;
+      }
+
+      &-rec3 {
+        @include rectangleMobile;
+      }
+
+      &-rec4 {
+        @include rectangleMobile;
+      }
+
+      &-shadow {
+        &-1 {
+          @include rectangleMobile;
+        }
+
+        &-2 {
+          @include rectangleMobile;
+        }
+
+        &-3 {
+          @include rectangleMobile;
+        }
+      }
+    }
   }
 }
