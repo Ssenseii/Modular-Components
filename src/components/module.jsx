@@ -7,11 +7,14 @@ const Module = () => {
       <div className='module__shape'>
         <div className="module__shape-shadow-1"></div>
         <div className="module__shape-shadow-2"></div>
+        <div className="module__shape-shadow-3"></div>
 
         <div className='module__shape-rec1'></div>
         <div className='module__shape-rec2'></div>
         <div className='module__shape-rec3'></div>
         <div className='module__shape-rec4'></div>
+
+        .module__shape
       </div>
 
     </div>
