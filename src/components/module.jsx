@@ -14,9 +14,16 @@ const Module = () => {
         <div className='module__shape-rec3'></div>
         <div className='module__shape-rec4'></div>
 
-        .module__shape
+        <div className="module__shape-hover1"></div>
+        <div className="module__shape-hover2"></div>
+        <div className="module__shape-hover3"></div>
+        <div className="module__shape-hover4"></div>
       </div>
 
+      {/* Content */}
+      <div className="module__content">
+        
+      </div>
     </div>
   )
 }

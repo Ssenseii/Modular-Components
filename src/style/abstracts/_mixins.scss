@@ -12,5 +12,10 @@
     border-bottom: 1px solid darken($Green100, 10%);
     border-radius: 4px;
     background-color: $Green100
-    
+}
+
+@mixin HollowRectangle {
+    position: absolute;
+    width: 12.5rem;
+    height: 30rem;
 }

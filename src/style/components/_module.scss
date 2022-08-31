@@ -8,19 +8,19 @@
 
   &__shape {
     position: relative;
-    width: 50rem;
+    width: 30rem;
     height: 30rem;
     @include Center;
 
-    &:hover{
-      transform: translateY(-10px);
-      transition: transform 0.2s;
+    &:hover {
+      transform: translateY(-5px);
+      transition: transform 0.5s;
     }
-    
-    
-    &:hover > div {
+
+
+    &:hover>div {
       cursor: pointer;
-      background-color: $Green200;
+      background-color: darken($Green100, 5%);
     }
 
 
@@ -28,9 +28,11 @@
     &:hover>&-shadow-1 {
       box-shadow: 0px 8px 8px 0px darken($Blue50, 10%);
     }
+
     &:hover>&-shadow-2 {
       box-shadow: 0px -8px 8px 0px darken($Blue50, 10%);
     }
+
     &:hover>&-shadow-3 {
       box-shadow: 0px 8px 8px 0px darken($Blue50, 10%);
     }
@@ -41,6 +43,7 @@
         @include Rectangle;
         transform: rotate(-45deg);
         box-shadow: 0px 8px 8px 0px darken($Blue50, 5%);
+
       }
 
       &-2 {
@@ -77,5 +80,6 @@
       transform: rotate(90deg);
       @include Rectangle;
     }
+
   }
 }
