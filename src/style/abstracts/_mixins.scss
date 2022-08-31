@@ -1,0 +1,16 @@
+@mixin Center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin Rectangle {
+    position: absolute;
+    width: 12.5rem;
+    height: 30rem;
+    border-top: 1px solid darken($Green100, 10%);
+    border-bottom: 1px solid darken($Green100, 10%);
+    border-radius: 4px;
+    background-color: $Green100
+    
+}
