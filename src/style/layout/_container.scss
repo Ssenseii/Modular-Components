@@ -1,0 +1,15 @@
+.container {
+  background-color: $Blue50;
+
+  &__lvl {
+
+    &-1 {
+      @include level;
+    }
+
+    &-2{
+      @include level;
+      flex-flow: row nowrap;
+    }
+  }
+}

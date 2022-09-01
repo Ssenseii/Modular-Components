@@ -24,3 +24,9 @@
     width: 7rem;
     height: 16rem;
 }
+
+@mixin level{
+    width: 100%;
+    height: 100vh;
+    @include Center;
+}
